@@ -8,5 +8,9 @@ class IndexController extends ControllerBase
 
     }
 
+    public function loginprosesAction(){
+        echo "anda masuk ke index/loginproses";
+    }
+
 }
 

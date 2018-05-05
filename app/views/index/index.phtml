@@ -1,7 +1,15 @@
-<div class="page-header">
-    <h1>Congratulations!</h1>
-</div>
+<form method="post" action="<?= $this->url->get('index/loginproses') ?>">
 
-<p>You're now flying with Phalcon. Great things are about to happen!</p>
+    <div class="form-group">
+        <label>Username</label>
+        <input class="form-control" type="text" name="username">
+    </div>
 
-<p>This page is located at <code>views/index/index.phtml</code></p>
+    <div class="form-group">
+        <label>Password</label>
+        <input class="form-control" type="text" name="password">
+    </div>
+
+
+    <button class="btn btn-primary" type="submit">Login</button>
+</form>
